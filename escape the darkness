@@ -1,0 +1,80 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version"))()
+local window = library:Window("PitchHub - ETD")
+local window2 = library:Window("PitchHub - map selector")
+local window3 = library:Window("PitchHub - misc")
+window3:Button("ctrl tp", function()      
+        
+        local Plr = game:GetService("Players").LocalPlayer
+
+local Mouse = Plr:GetMouse()
+
+ 
+
+Mouse.Button1Down:connect(function()
+
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+
+if not Mouse.Target then return end
+
+Plr.Character:MoveTo(Mouse.Hit.p)
+
+end)
+        
+end)
+
+window3:Button("rejoin", function() 
+    local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ 
+
+ts:Teleport(game.PlaceId, p)
+    
+end)
+
+window2:Button("farmland", function()    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox/main/etd%20-%20farmland'))()
+end)
+
+window2:Button("mineshaft", function()    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox/main/etd%20-%20mineshaft'))()
+end)
+
+window2:Button("graveyard", function()    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox/main/etd%20graveyard'))()
+end)
+
+window2:Button("lakeside", function()    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox/main/etd%20lakeside'))()
+end)
+
+
+window2:Button("powerplant", function()    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox/main/etd%20powerplant'))()
+end)
+
+window2:Button("warehouse", function()    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/roblox/main/etd%20warehouse'))()
+end)
+
+window:Button("tp lobby", function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 9.19495, 30.2525, 57.806 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+window:Button("tp killer room", function() 
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( -47.4899, 1.53745, 447.064 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+window:Slider("speed boost",0,100,20, function(value)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+end)
