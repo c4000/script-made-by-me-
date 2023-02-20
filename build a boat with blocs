@@ -1,0 +1,74 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version"))()
+local window = library:Window("build a boat de wish")
+   
+    window:Button("gate1", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 368.15, 88.54, 24.49 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("gate2", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 938.00, 86.38, 63.21 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("gate3", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 1514.34, 89.44, 57.86 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("gate4", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 2066.83, 84.86, 31.57 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("gate4", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 2066.83, 84.86, 31.57 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("gate5", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 2614.15, 82.40, 56.73 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("gate6", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 3171.17, 82.40, 64.16 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("chest", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 3925.94, -164.91, 54.39 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
